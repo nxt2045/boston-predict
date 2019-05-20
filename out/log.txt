@@ -1,0 +1,18 @@
+
+{'silent': 0, 'nthread': 4, 'max_depth': 3, 'min_child_weight': 1, 'gamma': 0.2, 'subsample': 0.9, 'colsample_bytree': 0.7, 'n_estimators': 500, 'learning_rate': 0.05}
+train r2: 0.9976691077908952
+test r2: 0.9357537947055438
+
+{'silent': 0, 'nthread': 4, 'max_depth': 7, 'min_child_weight': 2, 'gamma': 0.3, 'subsample': 0.7, 'colsample_bytree': 0.7, 'n_estimators': 500, 'learning_rate': 0.05}
+train r2: 0.9995122804701365
+test r2: 0.9258657251918992
+
+{'silent': 0, 'nthread': 4, 'max_depth': 4, 'min_child_weight': 1, 'gamma': 0.3, 'subsample': 0.8, 'colsample_bytree': 0.7, 'n_estimators': 1000, 'learning_rate': 0.1}
+train r2: 0.9994513306141675
+test r2: 0.9405496595136728
+
+{'silent': 0, 'nthread': 4, 'max_depth': 4, 'min_child_weight': 1, 'gamma': 0.2, 'subsample': 0.7, 'colsample_bytree': 0.8, 'n_estimators': 500, 'learning_rate': 0.05}
+train r2: 0.9995618748734632
+test r2: 0.9354390344493758
+
+
