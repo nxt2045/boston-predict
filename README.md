@@ -3,6 +3,7 @@
 https://www.jianshu.com/p/f828eae005a1
 https://www.jianshu.com/p/f34f22258a0a
 ## Describ
+```txt
 ERP课程分组作业报告（60分）
 
 1、作业内容：
@@ -34,4 +35,4 @@ ERP课程作业报告提纲
 实验过程截图，实验结果截图。
 5、	实验结果分析
 实验结果的好与坏的原因分析、未来算法改进思想。
-
+```
