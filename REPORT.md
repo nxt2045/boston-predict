@@ -257,11 +257,11 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 根据字段分析的结果，提取出新的特征，做成字段。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/217ab1397b8b672500fedc8396735baa.png" height="35%" width="35%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/217ab1397b8b672500fedc8396735baa.png" height="45%" width="45%">
 
 分箱形成的新字段，先Onehot编码再与原表格连接。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/15177892375e97ba126f19a856ae0fb5.png" height="110%" width="110%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/15177892375e97ba126f19a856ae0fb5.png" height="120%" width="120%">
 
 ## 三、算法
 
