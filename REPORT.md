@@ -6,13 +6,14 @@
 
 从下图的结果可以看出，数据总共有506行，13列。  
 13个字段中都有506个非空的float64类型的数值，即没有空值。
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/347bd8ee3cd44226dc992562ec6bc1a2.png" height="25%" width="25%">
+
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/347bd8ee3cd44226dc992562ec6bc1a2.png" height="35%" width="35%">
 
 ### 1.2 异常值检测
 
 可以看出房价50可能是异常值，通过后文的特征提取和模型结果以证明该异常值合理性。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/8e76786e084317e234eee51d16dd3ad9.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/8e76786e084317e234eee51d16dd3ad9.png" height="60%" width="60%">
 
 ## 二、特征工程
 
@@ -268,7 +269,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 使用sklearn.model_selection库中的cross_validate方法，从如下回归模型中找到最优模型
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/71b6b5c91cfd3edf585e5b637838b79b.png" height="30%" width="30%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/71b6b5c91cfd3edf585e5b637838b79b.png" height="20%" width="20%">
 
 <img src="https://github.com/isnxt/boston-predict/blob/master/img/ce37ec0aaecb074330839741dcef7a25.png" height="40%" width="40%">
 
@@ -280,11 +281,11 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 用train_test_split划分训练集和测试集
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/80d808f6e708e1b88f527c1d5ba1a423.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/80d808f6e708e1b88f527c1d5ba1a423.png" height="40%" width="40%">
 
 sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/a65cb9ca7583015704da410426c2a9e2.png" height="70%" width="70%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/a65cb9ca7583015704da410426c2a9e2.png" height="60%" width="60%">
 
 示例过程如下：
 
@@ -298,8 +299,8 @@ sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数
 
 用train_test_split划分得到的测试集，多次实验结果如下，可以看出本模型准确率(R\^2)稳定在0.92以上，
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/bf82e394fc8d723b8c70a3237d0b2326.png" height="60%" width="60%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/bf82e394fc8d723b8c70a3237d0b2326.png" height="70%" width="70%">
 
 将预测与真实值画图比较可以看出，本模型准确率高，泛化能力强，并且有能力预测房价为50的异常值
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/f291b3e5eacfec1ffa8a6e0790ad2d53.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/f291b3e5eacfec1ffa8a6e0790ad2d53.png" height="70%" width="70%">
