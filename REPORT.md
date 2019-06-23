@@ -260,7 +260,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 分箱形成的新字段，先Onehot编码再与原表格连接。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/15177892375e97ba126f19a856ae0fb5.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/15177892375e97ba126f19a856ae0fb5.png">
 
 ## 三、算法
 
@@ -268,9 +268,9 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 使用sklearn.model_selection库中的cross_validate方法，从如下回归模型中找到最优模型
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/71b6b5c91cfd3edf585e5b637838b79b.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/71b6b5c91cfd3edf585e5b637838b79b.png" height="30%" width="30%">
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/ce37ec0aaecb074330839741dcef7a25.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/ce37ec0aaecb074330839741dcef7a25.png" height="40%" width="40%">
 
 从下图中可以看出，几个集成回归模型都在测试集上取得0.8以上的得分。XGBRegressor模型测试集预测结果最优。而决策树回归模型在训练集上取得了满分，与测试集结果差距大，说明这种模型容易过拟合，而相比较之下xgboost因为其惩罚模型复杂度的特点具有很好的泛化能力。
 
@@ -284,7 +284,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/a65cb9ca7583015704da410426c2a9e2.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/a65cb9ca7583015704da410426c2a9e2.png" height="60%" width="60%">
 
 示例过程如下：
 
@@ -292,14 +292,14 @@ sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数
 
 利用得到的参数，训练模型
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/d0b31b5fce612d523d3addca098460cf.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/d0b31b5fce612d523d3addca098460cf.png" height="100%" width="100%">
 
 ## 四、实验结果分析
 
 用train_test_split划分得到的测试集，多次实验结果如下，可以看出本模型准确率(R\^2)稳定在0.92以上，
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/bf82e394fc8d723b8c70a3237d0b2326.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/bf82e394fc8d723b8c70a3237d0b2326.png" height="60%" width="60%">
 
 将预测与真实值画图比较可以看出，本模型准确率高，泛化能力强，并且有能力预测房价为50的异常值
 
-![图片包含 天空 描述已自动生成](img/f291b3e5eacfec1ffa8a6e0790ad2d53.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/f291b3e5eacfec1ffa8a6e0790ad2d53.png" height="50%" width="50%">
