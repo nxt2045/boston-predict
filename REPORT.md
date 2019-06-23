@@ -269,7 +269,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 使用sklearn.model_selection库中的cross_validate方法，从如下回归模型中找到最优模型
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/71b6b5c91cfd3edf585e5b637838b79b.png" height="20%" width="20%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/71b6b5c91cfd3edf585e5b637838b79b.png" height="25%" width="25%">
 
 <img src="https://github.com/isnxt/boston-predict/blob/master/img/ce37ec0aaecb074330839741dcef7a25.png" height="40%" width="40%">
 
@@ -281,7 +281,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 用train_test_split划分训练集和测试集
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/80d808f6e708e1b88f527c1d5ba1a423.png" height="40%" width="40%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/80d808f6e708e1b88f527c1d5ba1a423.png" height="45%" width="45%">
 
 sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数。
 
