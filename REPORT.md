@@ -6,7 +6,7 @@
 
 从下图的结果可以看出，数据总共有506行，13列。  
 13个字段中都有506个非空的float64类型的数值，即没有空值。
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/347bd8ee3cd44226dc992562ec6bc1a2.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/347bd8ee3cd44226dc992562ec6bc1a2.png" height="25%" width="25%">
 
 ### 1.2 异常值检测
 
@@ -256,7 +256,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 根据字段分析的结果，提取出新的特征，做成字段。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/217ab1397b8b672500fedc8396735baa.png" height="50%" width="50%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/217ab1397b8b672500fedc8396735baa.png" height="25%" width="25%">
 
 分箱形成的新字段，先Onehot编码再与原表格连接。
 
@@ -284,7 +284,7 @@ LSTAT表示低收入阶层占比，把它作为x轴的数值。
 
 sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数。
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/a65cb9ca7583015704da410426c2a9e2.png" height="60%" width="60%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/a65cb9ca7583015704da410426c2a9e2.png" height="70%" width="70%">
 
 示例过程如下：
 
@@ -292,7 +292,7 @@ sklearn.model_selection库中有GridSearchCV方法，搜索模型的最优参数
 
 利用得到的参数，训练模型
 
-<img src="https://github.com/isnxt/boston-predict/blob/master/img/d0b31b5fce612d523d3addca098460cf.png" height="100%" width="100%">
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/d0b31b5fce612d523d3addca098460cf.png" height="75%" width="75%">
 
 ## 四、实验结果分析
 
