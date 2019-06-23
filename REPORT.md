@@ -8,6 +8,7 @@
 13个字段中都有506个非空的float64类型的数值，即没有空值。
 
 ![](img/347bd8ee3cd44226dc992562ec6bc1a2.png)
+<img src="https://github.com/isnxt/boston-predict/blob/master/img/347bd8ee3cd44226dc992562ec6bc1a2.png" height="50%" width="50%">
 
 ### 1.2 异常值检测
 
