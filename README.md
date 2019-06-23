@@ -1,7 +1,4 @@
 # Boston-House
-## Refer
-https://www.jianshu.com/p/f828eae005a1
-https://www.jianshu.com/p/f34f22258a0a
 ## Describ
 ```txt
 ERP课程分组作业报告（60分）
